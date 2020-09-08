@@ -39,5 +39,6 @@
    1. ```c
       #define offset(T, name) ((long long)(&(((T *)(0))->name)))
       #define Head(p, T, name) ((T *)(((char *)p) - offset(T, name)))
+      //其中（long long）和（char *）只是为了使其可以做加减运算，可以换成（size_t）
       ```
 
