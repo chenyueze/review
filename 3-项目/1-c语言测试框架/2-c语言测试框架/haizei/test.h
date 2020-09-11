@@ -33,7 +33,7 @@ void add##_##a##_##b(){\
 }\
 void a##_##b()
 
-#define TYPE_STR(a) _Generic((a),\
+#define TYPE_STR(a) _Generic((a), \
     int : "%d",\
     double : "%lf",\
     float : "%f",\
