@@ -22,7 +22,7 @@ TEST(testFunc, add){ //一个测试用例
 }
 
 
-TEST(testFunc, add2){
+TEST(testFunc, add2)
     EXPECT_EQ(add(5, 3), 8);
     EXPECT_EQ(add(5, 3), 9);
     EXPECT_EQ(add(6, 7), 9);

@@ -97,9 +97,9 @@ void initfootball() {
 
 void *draw(void *arg) {
     initfootball();
-    while (1) {
-        sleep(10);
-    }
+    //while (1) {
+    //    sleep(10);
+    //}
     return NULL;
 }
 
