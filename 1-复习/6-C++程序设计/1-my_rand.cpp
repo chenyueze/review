@@ -6,6 +6,7 @@
  ************************************************************************/
 
 #include<iostream>
+#include <ctime>
 using namespace std;
 
 int my_seed = 1;
@@ -21,6 +22,7 @@ int my_rand(){
 
 
 int main(){
+    srand(1);
     int arr[105] = {0};
     for(int i = 0; i < 100; ++i){
         int temp = my_rand();
